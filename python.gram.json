@@ -1,0 +1,57 @@
+{
+	"settings" : {
+		"fileTypes": ["py"]
+	},
+
+	"*": [
+		{
+			"insert": "    ",
+			"alias": "indent"
+		},
+		{
+			"insert": "/n",
+			"alias": "new line"
+		}
+	"start" : [
+		{
+			"insert": "class [[$classname]]():\n[[$classbody]]",
+			"alias": "class"
+		},
+		{
+			"insert": "def [[$fname]]([[$fnargs]]):\n[[$fnbody]]",
+			"alias": "fucntion"
+		}
+	],
+
+	"classname": [
+		{
+			"insert": "Arthmetic",
+			"alias": "arithmetic"
+
+		}
+	],
+	"classbody" : [
+		{
+			"insert": "def[[$fname]]([[$fnargs]]):\n[[$fnbody]][[$classbody]]",
+			"alias": "fucntion"
+		}
+	]
+	"fname": [
+		{
+			"insert": "add",
+			"alias": "add"
+		},
+		{
+			"insert": "multiply",
+			"alias": "multiply"
+		},
+		{
+			"insert": "divide",
+			"alias": "divide"
+		},
+		{
+			"insert": "max",
+			"alias": "maximum"
+		}
+
+
